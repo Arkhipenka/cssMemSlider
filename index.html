@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mem slider</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Meme slider</title>
 </head>
 <body>
+    <div class="container">
+        <div class="slider">
+            <input type="radio" id="rb1" name="rb" class="slider__radio" checked>
+            <input type="radio" id="rb2" name="rb" class="slider__radio">
+            <input type="radio" id="rb3" name="rb" class="slider__radio">
+            <input type="radio" id="rb4" name="rb" class="slider__radio">
+            <div class="slider__main">
+                <div class="slider__image">
+                    <img src="./assets/image/meme1.jpg" alt="mem1">
+                </div>
+                <div class="slider__image">
+                    <img src="./assets/image/meme2.jpeg" alt="mem2">
+                </div>
+                <div class="slider__image">
+                    <img src="./assets/image/meme3.jpg" alt="mem3">
+                </div>
+                <div class="slider__image">
+                    <img src="./assets/image/meme4.jpg" alt="mem4">
+                </div>
+            </div>
+            <div class="slider__footer">
+                <div class="slider__texts">
+                    <div class="slider__text">А я вам покажу откуда на Беларусь готовилось нападение...</div>
+                    <div class="slider__text">Аэрофлот 2022</div>
+                    <div class="slider__text">Чорнобаевка 20:0</div>
+                    <div class="slider__text">Картинка на все случаи жизни</div>
+                </div>
+                <div class="slider__controls">
+                    <label for="rb1" class="slider__control">
+                        <div class="slider__button"></div>
+                    </label>
+                    <label for="rb2" class="slider__control">
+                        <div class="slider__button"></div>
+                    </label>
+                    <label for="rb3" class="slider__control">
+                        <div class="slider__button"></div>
+                    </label>
+                    <label for="rb4" class="slider__control">
+                        <div class="slider__button"></div>
+                    </label>
+                </div>
+            </div>
+                
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
