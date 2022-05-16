@@ -55,8 +55,11 @@
       display: flex;
       justify-content: start;
       align-items: flex-start;
+      font-size: 20px;
+      font-weight:bolder;
       transition: 1s;
       flex-shrink: 0;
+      
   }
   
   .slider__controls{
